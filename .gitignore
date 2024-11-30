@@ -1,0 +1,13 @@
+### Ignore all files except *.rs and *.toml files anywhere in the project
+
+# Ignore all files
+*
+
+# Allow programming files
+!*.rs
+
+# Allow config files
+!*.toml
+
+# Allow git ignore files
+!*.gitignore
